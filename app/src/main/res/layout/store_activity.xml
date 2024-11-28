@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvStoreTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Магазин в городе "
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnShowPhones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Посмотреть телефоны" />
+
+        <Button
+            android:id="@+id/btnBuyPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Купить телефон"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnShowStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показать статистику продаж"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnRepairPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Предложить ремонт телефона"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnBackToMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вернуться в главное меню"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
